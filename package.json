@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://github.com/AndriiMelnikk/atlana/",
   "private": true,
   "dependencies": {
     "@octokit/core": "^3.6.0",
@@ -15,6 +15,7 @@
     "@types/react-redux": "^7.1.24",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
@@ -30,6 +31,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
