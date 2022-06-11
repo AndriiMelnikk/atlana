@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/AndriiMelnikk/atlana/",
+  "homepage": "https://AndriiMelnikk.github.io/atlana/",
   "private": true,
   "dependencies": {
     "@octokit/core": "^3.6.0",
