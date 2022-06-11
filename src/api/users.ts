@@ -1,5 +1,5 @@
 import { Octokit } from '@octokit/core';
-const octokit = new Octokit({ auth: `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` });
+const octokit = new Octokit({ auth: `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` });
 
 export const User_api = {
     getUsersOne(users: string) {
