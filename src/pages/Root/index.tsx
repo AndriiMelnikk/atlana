@@ -10,7 +10,7 @@ const Root: FC = () => {
     return (
         <div className={style.app}>
             <h1>
-                <Link to='/'> GitHub Search</Link>{' '}
+                <Link to='/'>GitHub Search</Link>{' '}
             </h1>
             <Routes>
                 <Route path='/' element={<UsersList />} />
